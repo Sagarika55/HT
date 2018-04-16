@@ -14,6 +14,7 @@ namespace SH.HMAngular.Controllers
     public class DashboardController : Controller
     {
         private IDashboardService _dashboardSvc;
+
         public DashboardController(IDashboardService dashboardSvc)
         {
             _dashboardSvc = dashboardSvc;
