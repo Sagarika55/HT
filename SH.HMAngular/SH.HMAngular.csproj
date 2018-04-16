@@ -28,6 +28,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\CandidateController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="ClientApp\app\components\dashboard\fetchcandidate.component.ts" />
   </ItemGroup>
 
